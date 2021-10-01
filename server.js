@@ -8,6 +8,9 @@ const mongoose = require('mongoose')
 const app = express()
 const db = mongoose.connection
 
+// Configures server
+require('dotenv').config()
+
 ///////
 // Port
 ////
